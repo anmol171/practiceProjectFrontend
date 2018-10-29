@@ -1,0 +1,8 @@
+<h1>{{title}}</h1>
+<!-- <app-common></app-common> -->
+<router-outlet>
+    <div class="overlay" *ngIf="showLoader">
+        <span class="spinner-1"></span>
+    </div>  
+  </router-outlet>
+  
